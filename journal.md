@@ -1,5 +1,19 @@
 # Journal du projet À dire d’experts
 
+# Mardi 17 octobre 2023
+
+- Lecture du compte-rendu du rdv avec Alix et du Guide de la transcription d'Ariane Pinche :
+  - segmentation des mots : "pardevant" (Villain) = "par devant"
+  - retrait des majuscules : "parLaquelle" (Quirot) = "par laquelle"
+  - les abréviations ne doivent pas être développées : "observaõn" (Quirot) 
+
+- Recherche d'autres règles de transcription utilisées par des projets HDR et des corpus de textes modernes pour obtenir un panorama :
+  - Le projet "Crimes et châtiments" a par exemple fait le choix de développer les abréviations puis de les mettre en notes dans Transkribus pour obtenir un corpus différent (cf. Élodie Paupe. ENC. (2022, 23 juin). 1.4 : Une cursive du 17e siècle , in Documents anciens et reconnaissance automatique des écritures manuscrites. [Vidéo]. Canal-U. [https://www.canal-u.tv/133333].)
+  - Les Gardenotes qui propose des règles de transcription de corpus de textes période moderne [https://lesgardenotes.org/kb/regles-de-transcription/]
+  - Theleme (ENC) et les Conseils pour l’édition des textes de l’époque moderne (XVIe-XVIIIe siècle) par Bernard Barbiche [http://theleme.enc.sorbonne.fr/cours/edition_epoque_moderne/edition_des_textes]
+
+- Rédaction d'un tableau comparatif des règles de transcription entre Ariane Pinche, Maxime Gohier, Bernard Barbiche
+    
 # Réunion IERDJ, 16 octobre 2023 : Josselin, Sara, Emmanuel, Robert
 
 ## Discussion sur l’évaluation statistique
