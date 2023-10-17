@@ -2,6 +2,8 @@
 
 # Mardi 17 octobre 2023
 
+- Rédaction du dossier pour accès CREMMA et instance eScriptorium
+
 - Lecture du compte-rendu du rdv avec Alix et du Guide de la transcription d'Ariane Pinche :
   - segmentation des mots : "pardevant" (Villain) = "par devant"
   - retrait des majuscules : "parLaquelle" (Quirot) = "par laquelle"
