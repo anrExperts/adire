@@ -12,7 +12,7 @@
   - Les Gardenotes qui propose des règles de transcription de corpus de textes période moderne [https://lesgardenotes.org/kb/regles-de-transcription/]
   - Theleme (ENC) et les Conseils pour l’édition des textes de l’époque moderne (XVIe-XVIIIe siècle) par Bernard Barbiche [http://theleme.enc.sorbonne.fr/cours/edition_epoque_moderne/edition_des_textes]
 
-- Rédaction d'un tableau comparatif des règles de transcription entre Ariane Pinche, Maxime Gohier, Bernard Barbiche
+- Début de rédaction d'un tableau comparatif des règles de transcription entre Ariane Pinche, Maxime Gohier et Bernard Barbiche cf [issue 6](https://github.com/anrExperts/adire/issues/6)
     
 # Réunion IERDJ, 16 octobre 2023 : Josselin, Sara, Emmanuel, Robert
 
