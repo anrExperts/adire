@@ -1,6 +1,16 @@
 # Journal du projet À dire d’experts
 
-# Mardi 17 octobre 2023
+# 19 octobre 2023
+- Travail sur les particularités des mains (abréviations, ponctuation, accentuation, etc.)
+- Tableau comparatif des règles de transcription (Arianne Pinche, Maxime Gohier, Bernard Barbiche)
+- Dépôt de la candidature Cremma
+- Installation de Kraken
+  - Difficultés rencontrées pour l'installation de Kraken, puis pour l'installation d'un modèle de reconnaissance de texte (problèmes non résolus pour l'heure)
+  - La segmentation fonctionne (modèle std BLLA) et ne semble effectivement pas très gourmande en ressource
+    - sorties testées json et alto
+    - outil de visualisation pour segmentation alto [https://github.com/emory-lits-labs/altoviz](https://github.com/emory-lits-labs/altoviz) - [http://emory-lits-labs.github.io/altoviz/](http://emory-lits-labs.github.io/altoviz/)
+
+# 17 octobre 2023
 
 - Rédaction du dossier pour accès CREMMA et instance eScriptorium
 
