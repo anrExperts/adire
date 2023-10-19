@@ -3,8 +3,8 @@
 # 19 octobre 2023
 - Travail sur les particularités des mains (abréviations, ponctuation, accentuation, etc.)
 - Tableau comparatif des règles de transcription (Arianne Pinche, Maxime Gohier, Bernard Barbiche)
-- Dépôt de la candidature Cremma
-- Installation de Kraken
+- Dépôt de la candidature [Cremma](https://cremmacall.sciencescall.org/)
+- Installation de [Kraken](https://kraken.re/main/index.html)
   - Difficultés rencontrées pour l'installation de Kraken, puis pour l'installation d'un modèle de reconnaissance de texte (problèmes non résolus pour l'heure)
   - La segmentation fonctionne (modèle std BLLA) et ne semble effectivement pas très gourmande en ressource
     - sorties testées json et alto
