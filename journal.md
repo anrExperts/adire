@@ -1,16 +1,24 @@
 # Journal du projet À dire d’experts
 
-# 19 octobre 2023
+## 30 octobre 2023
+- Poursuite des transcriptions
+- Première proposition de [normes de transcriptions](https://github.com/anrExperts/adire/issues/6#issuecomment-1785794335)
+- Kraken : semble fonctionner, en partie, avec python 3.10 sur macOs, mais uniquement pour la segmentation, toujours impossible de charger un modèle de transcription ou de segmentation.
+
+## 20 octobre 2023
+- Kraken : tentative d'installation sur macOs avec pip et conda (très long avec ce dernier) : échec. Ne semble pas fonctionner avec python 3.12
+
+## 19 octobre 2023
 - Travail sur les particularités des mains (abréviations, ponctuation, accentuation, etc.)
 - Tableau comparatif des règles de transcription (Arianne Pinche, Maxime Gohier, Bernard Barbiche)
 - Dépôt de la candidature [Cremma](https://cremmacall.sciencescall.org/)
 - Installation de [Kraken](https://kraken.re/main/index.html)
-  - Difficultés rencontrées pour l'installation de Kraken, puis pour l'installation d'un modèle de reconnaissance de texte (problèmes non résolus pour l'heure)
+  - Difficultés rencontrées pour l'installation de Kraken, puis pour l'installation d'un modèle de reconnaissance de texte (problèmes non résolus pour l'heure) (Ubuntu)
   - La segmentation fonctionne (modèle std BLLA) et ne semble effectivement pas très gourmande en ressource
     - sorties testées json et alto
     - outil de visualisation pour segmentation alto [https://github.com/emory-lits-labs/altoviz](https://github.com/emory-lits-labs/altoviz) - [http://emory-lits-labs.github.io/altoviz/](http://emory-lits-labs.github.io/altoviz/)
 
-# 17 octobre 2023
+## 17 octobre 2023
 
 - Rédaction du dossier pour accès CREMMA et instance eScriptorium
 
@@ -26,9 +34,9 @@
 
 - Début de rédaction d'un tableau comparatif des règles de transcription entre Ariane Pinche, Maxime Gohier et Bernard Barbiche cf [issue 6](https://github.com/anrExperts/adire/issues/6)
     
-# Réunion IERDJ, 16 octobre 2023 : Josselin, Sara, Emmanuel, Robert
+## Réunion IERDJ, 16 octobre 2023 : Josselin, Sara, Emmanuel, Robert
 
-## Discussion sur l’évaluation statistique
+### Discussion sur l’évaluation statistique
 
 - Les recherches sur la sélection des mains ont été faites avec Jupiter. Les médianes, etc. on été calculées avec XQuery.
 - Pour le NLP on va sans doute travailler avec Julia avec des appels de fonction en Python au besoin.
@@ -109,6 +117,6 @@ Sur la question des indices visuels. Niveaux d’analyse : mise en page, ligne,
 
 Alix confirme qu’il pourraît être intéressant pour elle d’être formellement associée au projet. Afin de limiter le temps de sollicitation, on prévoit d’isoler les questions de transcriptions et d’identification des mains pour les traiter dans des réunions distinctes.
 
-# Utilisation de ce document
+## Utilisation de ce document
 
 Ce fichier est un journal pour le suivi quotidien du travail réalisé dans le cadre du projet *À dire d’experts*. Chaque jour, faire le compte-rendu du travail réalisé en relevant les points éventuellement problématiques qui devront être discutés en signalant les issues GitHub qui sont créées à ce sujet. Plutôt que dans ce document, on privilégie les discussions dans les issues afin de pouvoir les catégoriser avec des mots-clefs et en faire un suivi approprié.
