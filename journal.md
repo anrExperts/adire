@@ -1,5 +1,10 @@
 # Journal du projet À dire d’experts
 
+## 31ocotbre 2023
+
+- Poursuite des transcriptions
+- Z1J 434_0589 : deux mains différentes, Villain qui débute puis certainement Quirot, puis de nouveau Villain. La main fatigue au fil du pv. Deux abréviations rencontrées qui ne sont pas faciles à transcrire (un commentaire a été laissé à chaque fois). 
+
 ## 30 octobre 2023
 - Poursuite des transcriptions
 - Première proposition de [normes de transcriptions](https://github.com/anrExperts/adire/issues/6#issuecomment-1785794335)
