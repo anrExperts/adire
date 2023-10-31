@@ -1,9 +1,11 @@
 # Journal du projet À dire d’experts
 
-## 31ocotbre 2023
+## 31 octobre 2023
 
 - Poursuite des transcriptions
-- Z1J 434_0589 : deux mains différentes, Villain qui débute puis certainement Quirot, puis de nouveau Villain. La main fatigue au fil du pv. Deux abréviations rencontrées qui ne sont pas faciles à transcrire (un commentaire a été laissé à chaque fois). 
+- Z1J 434_0589 : deux mains différentes, Villain qui débute puis certainement Quirot, puis de nouveau Villain. La main fatigue au fil du pv. Deux abréviations rencontrées qui ne sont pas faciles à transcrire (un commentaire a été laissé à chaque fois).
+- *corrections fiches prosopo et formulaire (vocabulaire Ric-O)
+- *début rédaction odd xpr
 
 ## 30 octobre 2023
 - Poursuite des transcriptions
