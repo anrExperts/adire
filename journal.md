@@ -8,22 +8,30 @@
     - fonctionne sur Google Collab
   - Yolo
     - installation sur le serveur de calcul interactif mutualisé d'Huma Num : échec. Dans un premier temps, problème causé par la version des packages `torch`, `torchevision`, downgrade vers `Torch 2.0.1` et `Torchevision 0.8.1` règle une partie du problème pas tout ([cf issue sur pytorche](https://github.com/pytorch/pytorch/issues/111469)).
-  
 
 ## 5 décembre 2023
 - ajout d'un submodule dans le repo Data pour le schema EAC et ajout des `<descriptiveNotes/>` dans les `<chronItem/>`
 - reprise des fichiers EAC-CPF pour la validation [issue #45](https://github.com/anrExperts/data/issues/45)
 
 ## 4 décembre 2023
-- finalisation du modèle Z1J pure ODD (ajout de la documentation)
+- Ajout de la documentation sur le formulaire dans le schéma Z1J
 - validation des fichiers EAC-CPF
 
-## 31 octobre 2023
+## 24 novembre 2023
+- finalisation du schema Z1J
 
+## 22 novembre 2023
+- demande d'accès au serveur de calcul IN2P3
+- pour suite de la rédaction du schéma Z1J
+
+## 20 novembre 2023
+- reprise du schéma Z1J en pure ODD (suppression des règles relaxNG) et début du travail sur les règles schematron
+
+## 31 octobre 2023
 - Poursuite des transcriptions
 - Z1J 434_0589 : deux mains différentes, Villain qui débute puis certainement Quirot, puis de nouveau Villain. La main fatigue au fil du pv. Deux abréviations rencontrées qui ne sont pas faciles à transcrire (un commentaire a été laissé à chaque fois).
-- *corrections fiches prosopo et formulaire (vocabulaire Ric-O)
-- *début rédaction odd xpr
+- corrections fiches prosopo et formulaire (vocabulaire Ric-O)
+- début rédaction odd xpr
 
 ## 30 octobre 2023
 - Poursuite des transcriptions
