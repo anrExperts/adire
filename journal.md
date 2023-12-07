@@ -1,5 +1,23 @@
 # Journal du projet À dire d’experts
 
+## 6 décembre 2023
+- test de [segment-anything](https://github.com/facebookresearch/segment-anything) et [Yolo](https://github.com/RizwanMunawar/yolov7-segmentation). Les deux reposent sur CUDA (nécessitent donc des cartes Nvidia).
+  - Segment Anything : 
+    - installation sur macbook : echec
+    - installation sur le serveur de calcul interactif mutualisé d'Huma Num (qui dispose d'un GPU Nvidia) : échec (au niveau de CUDA, problème de drivers je pense…)
+    - fonctionne sur Google Collab
+  - Yolo
+    - installation sur le serveur de calcul interactif mutualisé d'Huma Num : échec. Dans un premier temps, problème causé par la version des packages `torch`, `torchevision`, downgrade vers `Torch 2.0.1` et `Torchevision 0.8.1` règle une partie du problème pas tout ([cf issue sur pytorche](https://github.com/pytorch/pytorch/issues/111469)).
+  
+
+## 5 décembre 2023
+- ajout d'un submodule dans le repo Data pour le schema EAC et ajout des `<descriptiveNotes/>` dans les `<chronItem/>`
+- reprise des fichiers EAC-CPF pour la validation [issue #45](https://github.com/anrExperts/data/issues/45)
+
+## 4 décembre 2023
+- finalisation du modèle Z1J pure ODD (ajout de la documentation)
+- validation des fichiers EAC-CPF
+
 ## 31 octobre 2023
 
 - Poursuite des transcriptions
