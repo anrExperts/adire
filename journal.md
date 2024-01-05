@@ -67,11 +67,22 @@
 
 - Début de rédaction d'un tableau comparatif des règles de transcription entre Ariane Pinche, Maxime Gohier et Bernard Barbiche cf [issue 6](https://github.com/anrExperts/adire/issues/6)
 
-## 16 octobre 2023
 - Tableaux récapitulatifs sur la sélection des greffiers
+
 Présélection des greffiers disposant d'un corpus d'expertises important et susceptible de couvrir une longue période :
 ![Tableau greffier](files/img/greffiersTableau.png)
-  
+
+Frise chronologique greffiers par nombre d'expertises
+![timeline greffiers expertises](files/img/greffiersExpertises.png)
+
+Frise chronologique greffiers et qualité d'écriture
+![timeline greffiers expertises](files/img/greffiersEcriture.png)
+
+Frise chronologique greffiers par expertises 2
+![timeline greffiers expertises](files/img/greffiersExpertises_2.png)
+
+Frise chronologique greffiers et qualité d'écriture 2
+![timeline greffiers expertises](files/img/greffiersEcriture_2.png)
 
 ## Réunion IERDJ, 16 octobre 2023 : Josselin, Sara, Emmanuel, Robert
 
