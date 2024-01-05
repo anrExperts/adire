@@ -13,7 +13,7 @@
 
 ## 19 décembre 2023
 - Test du mode automatique de SA
-  - malheureusement, ce mode est trop gourmand en ressources pour s'exécuter avec la version gratuite de Google Colab et peu un importe le modèle de données utilisé (`B`, `L` ou `H`).
+  - malheureusement, ce mode est trop gourmand en ressources pour s'exécuter avec la version gratuite de Google Colab, peu importe le modèle de données utilisé (`B`, `L` ou `H`).
   - la ferme de calcul niveau 1 d'Huma-num dispose bien d'une carte graphique NVidia A100 compatible `CUDA` (nécessaire pour SegmentAnything). Mais impossible d'exécuter le script…
 
 ## 18 décembre 2023
