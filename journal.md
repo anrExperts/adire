@@ -66,7 +66,13 @@
   - Theleme (ENC) et les Conseils pour l’édition des textes de l’époque moderne (XVIe-XVIIIe siècle) par Bernard Barbiche [http://theleme.enc.sorbonne.fr/cours/edition_epoque_moderne/edition_des_textes]
 
 - Début de rédaction d'un tableau comparatif des règles de transcription entre Ariane Pinche, Maxime Gohier et Bernard Barbiche cf [issue 6](https://github.com/anrExperts/adire/issues/6)
-    
+
+## 16 octobre 2023
+- Tableaux récapitulatifs sur la sélection des greffiers
+Présélection des greffiers disposant d'un corpus d'expertises important et susceptible de couvrir une longue période :
+![Tableau greffier](files/img/greffiersTableau.png)
+  
+
 ## Réunion IERDJ, 16 octobre 2023 : Josselin, Sara, Emmanuel, Robert
 
 ### Discussion sur l’évaluation statistique
