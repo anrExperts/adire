@@ -7,7 +7,7 @@
 
 ## 21 décembre 2023
 - Lectures sur Yolo et nouvelle tentative d'installation (le précédent notebook portait en réalité sur une application vidéo)
-- Présentation des premiers résultats de segmentation avec SA à EC et nouvelle tentatives d'utiliser le mode automatique (installation des drivers CUDA notamment), mais après lecture de la documentation fournie par Huma-num, la carte graphique de la ferme de calcul niveau 1 est bridée, ce qui pourrait expliquer les erreurs que nous avons :
+- Présentation des premiers résultats de segmentation avec SA à EC et nouvelle tentative d'utiliser le mode automatique (installation des drivers CUDA notamment), mais après lecture de la documentation fournie par Huma-num, la carte graphique de la ferme de calcul niveau 1 est bridée, ce qui pourrait expliquer les erreurs que nous avons :
 > Les GPU Nvidia A100 sont partitionnés via MIG, par conséquenc il n’est pas possible d’utiliser les bibliothèques graphique (Vulkan, DirectX, OpenGL). Chaque compte ne peut accéder qu’à une fraction de la GPU.
 - On s'orienterait donc vers l'utilisation de SA, mais il faut attendre la réponse d'Huma-num pour l'accès à l'IN2P3.
 
