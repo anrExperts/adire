@@ -13,7 +13,7 @@
 - Les premiers résultats avec le predictor sont encourageants, avec l'utilisation de `vit_H` SA a retrouvé à chaque fois les feuillets demandés, peu importe la méthode employée :
 
 Predictor point
-![](files/img/predictorPoint.png | width=150px)
+<img src="files/img/predictorPoint.png" width=150px/>
 
 ## 6 décembre 2023
 - test de [segment-anything](https://github.com/facebookresearch/segment-anything) et [Yolo](https://github.com/RizwanMunawar/yolov7-segmentation). Les deux reposent sur CUDA (nécessitent donc des cartes Nvidia).
