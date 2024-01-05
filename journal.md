@@ -26,7 +26,7 @@
 - Les premiers résultats avec le predictor sont encourageants, avec l'utilisation de `vit_H` SA a retrouvé à chaque fois les feuillets demandés, peu importe la méthode employée :
   - point unique <img src="files/img/predictorPoint.png" width="150px" />
   - points multiples  <img src="files/img/predictorPoints.png" width="150px" />
-  - points multiple avec exclusion  <img src="files/img/predictorPointsExclude.png" width="150px" />
+  - points multiples avec exclusion  <img src="files/img/predictorPointsExclude.png" width="150px" />
   - boite  <img src="files/img/predictorBox.png" width="150px" />
   - boite et point d'exclusion <img src="files/img/predictorBoxAndPoint.png" width="150px" />
   - boites multiples  <img src="files/img/predictorMultipleBoxes.png" width="150px" />
