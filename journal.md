@@ -11,9 +11,12 @@
   - 3 modèles (SAM) différents peuvent être chargés `vit_B`, `vit_L`, `vit_H`. Les modèles sont vraisemblablement les mêmes sauf ce qui concerne la taille du réseau de neuronne. `B` = "base" ; `L` = "large" ; `H` = "huge". `H` est plus performant que `B`, mais `L` offre tout de même de bons résultats tout en étant plus léger… Le choix dépend donc plus de la puissance de calcul disponible.
     - En revanche, il semble difficile d'effectuer du *fine tuning* avec SAM. Les modèles ayant été entrainés avec une grande quantité de données, il en faudrait d'autant plus pour le fine tuné…
 - Les premiers résultats avec le predictor sont encourageants, avec l'utilisation de `vit_H` SA a retrouvé à chaque fois les feuillets demandés, peu importe la méthode employée :
-
-Predictor point
-<img src="files/img/predictorPoint.png" width=150px/>
+  - point unique <img src="files/img/predictorPoint.png" width="150px" />
+  - points multiples  <img src="files/img/predictorPoints.png" width="150px" />
+  - points multiple avec exclusion  <img src="files/img/predictorPointsExclude.png" width="150px" />
+  - boite  <img src="files/img/predictorBox.png" width="150px" />
+  - boite et point d'exclusion <img src="files/img/predictorBoxAndPoint.png" width="150px" />
+  - boites multiples  <img src="file/img/predictorMultipleBoxes.png" width="150px" />
 
 ## 6 décembre 2023
 - test de [segment-anything](https://github.com/facebookresearch/segment-anything) et [Yolo](https://github.com/RizwanMunawar/yolov7-segmentation). Les deux reposent sur CUDA (nécessitent donc des cartes Nvidia).
