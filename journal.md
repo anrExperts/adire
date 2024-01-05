@@ -2,6 +2,19 @@
 
 ## 22 décembre 2023
 - **ANR** révision des scripts pour l'importation des réceptions et des IAD. Le rapatriement est quasi prêt, il reste à voir quelques éléments avec RC cf [issue#35](https://github.com/anrExperts/data/issues/35).
+- État des transcriptions : 17 expertises transcrites et encodées en TEI (soit 42f.) : 432d001 ; 433d068, d110 ; 434d067, d083, d122 ; 480d058 ; 481d050 ; 482d049 ; 483d033 ; 484d022, d035 ; 526d059 ; 527d062 ; 528d024 ; 663d036 ; 664d017.
+- notre demande d'accès à la ferme de calcul IN2P3 a été acceptée.
+
+## 21 décembre 2023
+- Lectures sur Yolo et nouvelle tentative d'installation (le précédent notebook portait en réalité sur une application vidéo)
+- Présentation des premiers résultats de segmentation avec SA à EC et nouvelle tentatives d'utiliser le mode automatique (installation des drivers CUDA notamment), mais après lecture de la documentation fournie par Huma-num, la carte graphique de la ferme de calcul niveau 1 est bridée, ce qui pourrait expliquer les erreurs que nous avons :
+> Les GPU Nvidia A100 sont partitionnés via MIG, par conséquenc il n’est pas possible d’utiliser les bibliothèques graphique (Vulkan, DirectX, OpenGL). Chaque compte ne peut accéder qu’à une fraction de la GPU.
+- On s'orienterait donc vers l'utilisation de SA, mais il faut attendre la réponse d'Huma-num pour l'accès à l'IN2P3.
+
+## 19 décembre 2023
+- Test du mode automatique de SA
+  - malheureusement, ce mode est trop gourmand en ressources pour s'exécuter avec la version gratuite de Google Colab et peu un importe le modèle de données utilisé (`B`, `L` ou `H`).
+  - la ferme de calcul niveau 1 d'Huma-num dispose bien d'une carte graphique NVidia A100 compatible `CUDA` (nécessaire pour SegmentAnything). Mais impossible d'exécuter le script…
 
 ## 18 décembre 2023
 - Poursuite du travail sur SegmentAnything. 
@@ -16,7 +29,8 @@
   - points multiple avec exclusion  <img src="files/img/predictorPointsExclude.png" width="150px" />
   - boite  <img src="files/img/predictorBox.png" width="150px" />
   - boite et point d'exclusion <img src="files/img/predictorBoxAndPoint.png" width="150px" />
-  - boites multiples  <img src="file/img/predictorMultipleBoxes.png" width="150px" />
+  - boites multiples  <img src="files/img/predictorMultipleBoxes.png" width="150px" />
+- Le notebook annoté est sur Google Drive : `EXPERTS/Colab Notebooks/segmentAnything_predictor_example.ipynb`
 
 ## 6 décembre 2023
 - test de [segment-anything](https://github.com/facebookresearch/segment-anything) et [Yolo](https://github.com/RizwanMunawar/yolov7-segmentation). Les deux reposent sur CUDA (nécessitent donc des cartes Nvidia).
@@ -30,6 +44,7 @@
 ## 5 décembre 2023
 - **ANR** ajout d'un submodule dans le repo Data pour le schema EAC et ajout des `<descriptiveNotes/>` dans les `<chronItem/>`
 - **ANR** reprise des fichiers EAC-CPF pour la validation [issue #45](https://github.com/anrExperts/data/issues/45)
+- notre demande d'accès à CREMMA a été acceptée, nous avons accès à une instance eScriptorium.
 
 ## 4 décembre 2023
 - **ANR** Ajout de la documentation sur le formulaire dans le schéma Z1J
