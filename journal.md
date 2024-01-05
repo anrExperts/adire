@@ -1,5 +1,20 @@
 # Journal du projet À dire d’experts
 
+## 22 décembre 2023
+- **ANR** révision des scripts pour l'importation des réceptions et des IAD. Le rapatriement est quasi prêt, il reste à voir quelques éléments avec RC cf [issue#35](https://github.com/anrExperts/data/issues/35).
+
+## 18 décembre 2023
+- Poursuite du travail sur SegmentAnything. 
+  - SA propose deux modes de fonctionnement :
+    - Predictor : l'utilisateur détermine lui même ce qu'il recherche (ou ce qu'il ne veut pas) par l'intermédiaire de pointeurs ou de box
+    - Automatic mask générator : SA détect automatiquement les objets sur une image.
+  - 3 modèles (SAM) différents peuvent être chargés `vit_B`, `vit_L`, `vit_H`. Les modèles sont vraisemblablement les mêmes sauf ce qui concerne la taille du réseau de neuronne. `B` = "base" ; `L` = "large" ; `H` = "huge". `H` est plus performant que `B`, mais `L` offre tout de même de bons résultats tout en étant plus léger… Le choix dépend donc plus de la puissance de calcul disponible.
+    - En revanche, il semble difficile d'effectuer du *fine tuning* avec SAM. Les modèles ayant été entrainés avec une grande quantité de données, il en faudrait d'autant plus pour le fine tuné…
+- Les premiers résultats avec le predictor sont encourageants, avec l'utilisation de `vit_H` SA a retrouvé à chaque fois les feuillets demandés, peu importe la méthode employée :
+
+Predictor point
+![](files/img/predictorPoint.png | width=150px)
+
 ## 6 décembre 2023
 - test de [segment-anything](https://github.com/facebookresearch/segment-anything) et [Yolo](https://github.com/RizwanMunawar/yolov7-segmentation). Les deux reposent sur CUDA (nécessitent donc des cartes Nvidia).
   - Segment Anything : 
@@ -66,7 +81,7 @@
 
 - Début de rédaction d'un tableau comparatif des règles de transcription entre Ariane Pinche, Maxime Gohier et Bernard Barbiche cf [issue 6](https://github.com/anrExperts/adire/issues/6)
 
-- Tableaux récapitulatifs sur la sélection des greffiers [données](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6vEqexLuojIOKkZC8B8dhmzbV0MF6-dGOcczVKZMEZb3TPJODYsGeDU4AG33kzAP4stp1-z6a8MF0/pub?gid=313988877#)
+- Tableaux récapitulatifs sur la sélection des greffiers ([données et commentaires](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6vEqexLuojIOKkZC8B8dhmzbV0MF6-dGOcczVKZMEZb3TPJODYsGeDU4AG33kzAP4stp1-z6a8MF0/pub?gid=313988877#))
 
 Présélection des greffiers disposant d'un corpus d'expertises important et susceptible de couvrir une longue période :
 ![Tableau greffier](files/img/greffiersTableau.png)
