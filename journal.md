@@ -10,22 +10,22 @@
     - installation sur le serveur de calcul interactif mutualisé d'Huma Num : échec. Dans un premier temps, problème causé par la version des packages `torch`, `torchevision`, downgrade vers `Torch 2.0.1` et `Torchevision 0.8.1` règle une partie du problème pas tout ([cf issue sur pytorche](https://github.com/pytorch/pytorch/issues/111469)).
 
 ## 5 décembre 2023
-- ajout d'un submodule dans le repo Data pour le schema EAC et ajout des `<descriptiveNotes/>` dans les `<chronItem/>`
-- reprise des fichiers EAC-CPF pour la validation [issue #45](https://github.com/anrExperts/data/issues/45)
+- **ANR** ajout d'un submodule dans le repo Data pour le schema EAC et ajout des `<descriptiveNotes/>` dans les `<chronItem/>`
+- **ANR** reprise des fichiers EAC-CPF pour la validation [issue #45](https://github.com/anrExperts/data/issues/45)
 
 ## 4 décembre 2023
-- Ajout de la documentation sur le formulaire dans le schéma Z1J
-- validation des fichiers EAC-CPF
+- **ANR** Ajout de la documentation sur le formulaire dans le schéma Z1J
+- **ANR** validation des fichiers EAC-CPF
 
 ## 24 novembre 2023
-- finalisation du schema Z1J
+- **ANR** finalisation du schema Z1J
 
 ## 22 novembre 2023
 - demande d'accès au serveur de calcul IN2P3
-- pour suite de la rédaction du schéma Z1J
+- **ANR** poursuite de la rédaction du schéma Z1J
 
 ## 20 novembre 2023
-- reprise du schéma Z1J en pure ODD (suppression des règles relaxNG) et début du travail sur les règles schematron
+- **ANR** reprise du schéma Z1J en pure ODD (suppression des règles relaxNG) et début du travail sur les règles schematron
 
 ## 31 octobre 2023
 - Poursuite des transcriptions
@@ -52,7 +52,6 @@
     - outil de visualisation pour segmentation alto [https://github.com/emory-lits-labs/altoviz](https://github.com/emory-lits-labs/altoviz) - [http://emory-lits-labs.github.io/altoviz/](http://emory-lits-labs.github.io/altoviz/)
 
 ## 17 octobre 2023
-
 - Rédaction du dossier pour accès CREMMA et instance eScriptorium
 
 - Lecture du compte-rendu du rdv avec Alix et du Guide de la transcription d'Ariane Pinche :
@@ -67,21 +66,21 @@
 
 - Début de rédaction d'un tableau comparatif des règles de transcription entre Ariane Pinche, Maxime Gohier et Bernard Barbiche cf [issue 6](https://github.com/anrExperts/adire/issues/6)
 
-- Tableaux récapitulatifs sur la sélection des greffiers
+- Tableaux récapitulatifs sur la sélection des greffiers [données](https://docs.google.com/spreadsheets/d/e/2PACX-1vQ6vEqexLuojIOKkZC8B8dhmzbV0MF6-dGOcczVKZMEZb3TPJODYsGeDU4AG33kzAP4stp1-z6a8MF0/pub?gid=313988877#)
 
 Présélection des greffiers disposant d'un corpus d'expertises important et susceptible de couvrir une longue période :
 ![Tableau greffier](files/img/greffiersTableau.png)
 
-Frise chronologique greffiers par nombre d'expertises
+Frise chronologique greffiers / nombre d'expertises (écriture AA et +)
 ![timeline greffiers expertises](files/img/greffiersExpertises.png)
 
-Frise chronologique greffiers et qualité d'écriture
+Frise chronologique greffiers / qualité d'écriture (écriture AA et +)
 ![timeline greffiers expertises](files/img/greffiersEcriture.png)
 
-Frise chronologique greffiers par expertises 2
+Frise chronologique greffiers / nombre d'expertises 2 (écriture AAA et +)
 ![timeline greffiers expertises](files/img/greffiersExpertises_2.png)
 
-Frise chronologique greffiers et qualité d'écriture 2
+Frise chronologique greffiers / qualité d'écriture 2 (écriture AAA et +)
 ![timeline greffiers expertises](files/img/greffiersEcriture_2.png)
 
 ## Réunion IERDJ, 16 octobre 2023 : Josselin, Sara, Emmanuel, Robert
