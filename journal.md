@@ -1,10 +1,16 @@
 # Journal du projet À dire d’experts
+## 23 janvier 2024
+- tentative de résolution de l'erreur `cuda out of memory` (voir [errors.md](https://github.com/anrExperts/segmentation/blob/main/doc/errors.md#erreurs-python))… Toujours non résolue !
+- possibilité de lancer la prédiction sur le CPU, c'est fonctionnel, mais très, très long !
+
 ## 22 janvier 2024
 - creation d'un repo `segmentation` [https://github.com/anrExperts/segmentation](https://github.com/anrExperts/segmentation) 
 - travail sur le dépot des sources prosopographiques sur Nakala
 
 ## 12 janvier 2024
 - Si on réduit la taille de l'image le predictor automatique est fonctionnel.
+- évaluation de l'influence des 3 modèles H, L, B > sans surprise le modèle H trouve plus de mask que le L, qui en trouve plus que le B. Mais pour la détection des pages le B est largement suffisant.
+- modification des parametres de reconnaissance pour essayer d'affiner les prédictions, mais je ne comprends pas très bien sur quoi joue ces paramètres (à part ajouter des erreurs...)
 
 ## 11 janvier 2024
 - mise en place d'un kernel pour les jupyter notebooks à partir du virtual env.
