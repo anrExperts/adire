@@ -1,4 +1,27 @@
 # Journal du projet À dire d’experts
+## 22 janvier 2024
+- creation d'un repo `segmentation` [https://github.com/anrExperts/segmentation](https://github.com/anrExperts/segmentation) 
+- travail sur le dépot des sources prosopographiques sur Nakala
+
+## 12 janvier 2024
+- Si on réduit la taille de l'image le predictor automatique est fonctionnel.
+
+## 11 janvier 2024
+- mise en place d'un kernel pour les jupyter notebooks à partir du virtual env.
+- test des notebooks fournis par Segment-Anything.
+	- le predictor est fonctionnel…
+	- …mais l'automatique rencontre toujours des erreurs (`CUDA OUT OF MEMORY`), malgré des essais avec 4 GPU et 44GB de RAM (config. max dispo). Vraisemblablement c'est la mémoire des GPU de pose problème (chaque GPU disposant "uniquement" de 12GB).
+
+## 10 janvier 2024
+- le virtual env est opérationnel avec `python 3.8.6` (toujours des erreurs avec les versions postérieures)
+- rédaction d'un guide pour répertorier ce qui fonctionne et les erreurs rencontrées
+
+## 9 janvier 2024
+- Personnalisation des shells (pour y voir quelque chose…)
+- mise en place d'un virtual env. Python pour Segment Anything… quelques erreurs persistent
+
+## 8 janvier 2024
+- lecture de la documentation de l'IN2P3 et premières explorations de la ferme de calcul
 
 ## 22 décembre 2023
 - **ANR** révision des scripts pour l'importation des réceptions et des IAD. Le rapatriement est quasi prêt, il reste à voir quelques éléments avec RC cf [issue#35](https://github.com/anrExperts/data/issues/35).
