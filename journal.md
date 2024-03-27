@@ -1,4 +1,48 @@
 # Journal du projet À dire d’experts
+## 18-22 mars 2024
+- amélioration du script Julia pour filtrer les segments, sauvegarde des images et de tous les segments pour corrections ultérieures le cas échéant
+- les segments sont déposés sur sharedocs
+- poursuite de la segmentation du corpus des 4 greffiers
+- RC a transcrit une première expertise sur eScriptorium
+- poursuite du travail sur l'ontologie
+	- ajout de nouvelles régions
+	- ajout des annotations pour le texte
+
+## 4-8 mars 2024
+- réalisation d'une XSLT pour le passage des transcriptions TEI -> eScriptorium
+- premiers versements et segmentation des images (_lines_ & _masks_ uniquement)
+	- dans l'ensemble le modèle par défaut (_blla_) identifie bien les lignes
+	- il y a tout de même beaucoup de petites corrections à apporter lorsque du texte se trouve en marge
+	- l'interface n'est pas toujours très stable (rechargements nécessaires) ni très intuitive (ordre des lignes notamment)
+- rédaction d'une première ontologie à partir de [SegmOnto](https://segmonto.github.io)
+
+## 19-23 février 2024
+- Les segments retournés par _Image Segmentation_ sont trop nombreux et difficile à trier.
+- le predictor automatique de SA est fonctionnel avec des images de plus faible définition. En effectuant la segmentation sur des images de 600X400 (6000X4000 pour les fichiers natifs), puis en extrapolant les coordonnées on obtient de très bon résultats.
+- nous utilisons [PyCall.jl](https://github.com/JuliaPy/PyCall.jl) pour exécuter SA avec Julia. NB un _package_ julia existe mais nous rencontrons des problèmes pour l'installer.
+- les premiers résultats sont plutôt bons. SA retourne beaucoup moins de segments et il est plus facile de les filtrer. D'autre part, on récupère directement les coordonnées des boîtes.
+- methode :
+	- les images au format paysage sont segmentées
+		- les segments sont ensuite classés par taille 
+		- les segments jugés trop petits ou trop grands sont éliminés (surface = 1/3 < segment < 1/2)
+		- les segments sont ensuites ordonnées selon les coordonnées pour obtenir l'ordre gauche - droite
+		- si aucun segment ne correspond à ces critères, l'image d'origine est retournée afin de ne pas avoir de blanc
+		- cette méthode offre dans l'ensemble de bon résultats
+	- les images au format portrait ne sont pas segmentées
+	- un problème persistant concerne les annexes, souvent trop petites, il est très difficile de filtrer les segments correspondants (cf. point au dessus sur la taille des segments)
+
+## 5-9 février 2024
+- [JuliaImages](https://juliaimages.org) propose des solutions de segmentation par des méthodes traditionnelles (non fondées sur l'IA).
+- [ImageSegmentation](https://juliaimages.org/latest/pkgs/segmentation/). Les solutions proposées par ce _package_ ne nécessitent pas une grosse puissance de calcule ni d'environnement spécifique type CUDA.
+- la récupération des coordonnées des boîtes est un peu complexe. Le résultat d'une segmentation est une _matrix_, mais en travaillant sur les _extrema_ il est possible de les récupérer. 
+- malgré les possibilites de personnalisation des algorithmes, la segmentation retourne beaucoup de segments (plusieurs centaines à plusieurs milliers).
+- une autre piste pourrait reposer sur l'utilisation d'algorithmes de reconnaissance d'angles [imageCorners](https://juliaimages.org/ImageCorners.jl/dev/)
+
+- En revanche Julia Images est pertinent pour la découpe des images, depuis IIIF ou en local, voir [Banaka-split](https://github.com/sardinecan/banaka-split)
+
+## 26 janvier 2024
+- travail exploratoire pour trouver d'autres méthodes de segmentation
+
 ## 23 janvier 2024
 - tentative de résolution de l'erreur `cuda out of memory` (voir [errors.md](https://github.com/anrExperts/segmentation/blob/main/doc/errors.md#erreurs-python))… Toujours non résolue !
 - possibilité de lancer la prédiction sur le CPU, c'est fonctionnel, mais très, très long !
