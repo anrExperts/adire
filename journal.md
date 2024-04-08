@@ -1,4 +1,8 @@
 # Journal du projet À dire d’experts
+## 8 avril 2024
+- Évaluation d'un _text prompt_ pour Segment Anything avec la _library_ [lang segment anything](https://github.com/luca-medeiros/lang-segment-anything), afin de décrire ce que l'on recherche. La méthode utilise vraissemblablement le modèle de langue Bert (à vérifier !). La zones occupée par le cahier ou la feuille est parfaitement détectée, mais pas les feuilles individuellement. Cette méthode pourrait être utilisée pour les annexes ?
+- le notebook est accessible sur le repo `segmentation`.
+
 ## 2-5 avril 2024
 - poursuite de la segmentation (découpe) des images
 - création d'une feuille XSLT pour le passage TEI => texte brut pour le versement dans eScriptorium. Un pseudo-balisage est utilisé pour l'annotation (ajouts, manques, unclear, etc.)
