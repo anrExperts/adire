@@ -1,4 +1,10 @@
 # Journal du projet À dire d’experts
+## 2-5 avril 2024
+- poursuite de la segmentation (découpe) des images
+- création d'une feuille XSLT pour le passage TEI => texte brut pour le versement dans eScriptorium. Un pseudo-balisage est utilisé pour l'annotation (ajouts, manques, unclear, etc.)
+- les images des premières transcriptions TEI sont versées sur eScriptorium et les lignes sont segmentées. 5 transcriptions sont presentes aussi.
+- discussion autour de l'ontologie et des méthodes de segmentation, notamment pour les ajouts en marge ([discussion ontologie](https://github.com/orgs/anrExperts/discussions/34)/[discussion segmentation](https://github.com/orgs/anrExperts/discussions/35)).
+
 ## 18-22 mars 2024
 - amélioration du script Julia pour filtrer les segments, sauvegarde des images et de tous les segments pour corrections ultérieures le cas échéant
 - les segments sont déposés sur sharedocs
