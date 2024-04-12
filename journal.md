@@ -2,7 +2,9 @@
 
 ## 12 avril 2024
 - Révision de la segmentation
-- Chez Quirot il semble que les vacations soient numérotées en marge en chiffres arabes.
+- Notes :
+	- Chez Quirot il semble que les vacations soient numérotées en marge en chiffres arabes.
+	- Z1J527d062 : mention "les parties se sont accomodées" => mentions administratives
   
 ## 8 avril 2024
 - Évaluation d'un _text prompt_ pour Segment Anything avec la _library_ [lang segment anything](https://github.com/luca-medeiros/lang-segment-anything), afin de décrire ce que l'on recherche. La méthode utilise vraissemblablement le modèle de langue Bert (à vérifier !). La zones occupée par le cahier ou la feuille est parfaitement détectée, mais pas les feuilles individuellement. Cette méthode pourrait être utilisée pour les annexes ?
