@@ -1,4 +1,9 @@
 # Journal du projet À dire d’experts
+
+## 12 avril 2024
+- Révision de la segmentation
+- Chez Quirot il semble que les vacations soient numérotées en marge en chiffres arabes.
+  
 ## 8 avril 2024
 - Évaluation d'un _text prompt_ pour Segment Anything avec la _library_ [lang segment anything](https://github.com/luca-medeiros/lang-segment-anything), afin de décrire ce que l'on recherche. La méthode utilise vraissemblablement le modèle de langue Bert (à vérifier !). La zones occupée par le cahier ou la feuille est parfaitement détectée, mais pas les feuilles individuellement. Cette méthode pourrait être utilisée pour les annexes ?
 - le notebook est accessible sur le repo `segmentation`.
