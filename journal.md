@@ -1,5 +1,10 @@
 # Journal du projet À dire d’experts
 
+## 23 avril 2024
+- Révision de la segmentation
+- Z1J434d061 par Villain : il y a de ajouts en marge qui correspondent à des commentaires des descriptions faites dans le texte => ajout dans l'ontologie de MarginTextZone:commentary
+- Dans ce même pv : ajout de mots/corections qui précèdent une phrase, ex : " de panneaux de (fin de ligne) de verre (en marge) cassés (retour à la ligne)". Pour l'instant "de verre" est mis dans la MainZone et non dans une MarginZone. 
+
 ## 12 avril 2024
 - Révision de la segmentation
 - Notes :
